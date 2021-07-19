@@ -1,4 +1,5 @@
-import { Head } from 'next/document'
+
+import  Head  from 'next/head'
 import { CompletedChallenges } from '../components/CompletedChallanges/CompletedChallenges'
 import { Countdown } from '../components/Countdown/Countdown'
 import { ExperienceBar} from '../components/ExperienceBar/ExperienceBar'
