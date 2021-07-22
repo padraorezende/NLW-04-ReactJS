@@ -56,7 +56,7 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
     }
 
     function startNewChallenge(){
-        const randomChallengeIndex = Math.floor(Math.random() + challenges.length);
+        const randomChallengeIndex = Math.floor(Math.random() * challenges.length);
         const challenge = challenges[randomChallengeIndex];
         setActiveChallenges(challenge);
 
@@ -76,7 +76,7 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
 
         let finalExperience = currentExperience + amount;
 
-        if(finalExperience >=experienceToNextLevel){
+        if(finalExperience >= experienceToNextLevel){
             finalExperience = finalExperience - experienceToNextLevel;
             levelUp();
         }

@@ -16,6 +16,7 @@
     "sass": "^1.35.2"
   },
   "devDependencies": {
+    "@types/js-cookie": "^2.2.7",
     "@types/node": "^16.3.3",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",

@@ -26,7 +26,7 @@ export function Countdown() {
             </div>
 
             {hasFinished ? (
-                <button disabled className={styles.countdownButton} onClick={startCountdown}>
+                <button disabled className={styles.countdownButton}>
                     Ciclo encerrado
                 </button>
             ) : (

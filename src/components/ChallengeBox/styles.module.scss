@@ -91,17 +91,19 @@
 
                 transition: filter 0.2s;
 
-                :hover{
+                &:hover{
                     filter: brightness(0.9);
                 }
 
-                .challengeFailedButton{
-                    background: var(--red);
-                }
+                
+            }
 
-                .challengeSucceededButton{
-                    background: var(--green);
-                }
+            .challengeFailedButton{
+                background: var(--red);
+            }
+
+            .challengeSucceededButton{
+                background: var(--green);
             }
         }
     }
