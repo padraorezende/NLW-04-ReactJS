@@ -6,8 +6,8 @@ import { CompletedChallenges } from '../components/CompletedChallanges/Completed
 import { Countdown } from '../components/Countdown/Countdown'
 import { ExperienceBar } from '../components/ExperienceBar/ExperienceBar'
 import { Profile } from '../components/Profile/Profile'
-import { ChallengesProvider } from '../contexts/ChallengeContext'
-import { CountdownProvider } from '../contexts/CountdownContext'
+import { ChallengesProvider } from '../hooks/ChallengeContext'
+import { CountdownProvider } from '../hooks/CountdownContext'
 import styles from '../styles/home.module.scss'
 
 type HomeProps = {
